@@ -1,0 +1,166 @@
+/*$$   /$$           /$$                                                   /$$                                 
+| $$  | $$          |__/                                                  | $$                                 
+| $$  | $$ /$$$$$$$  /$$ /$$    /$$ /$$$$$$   /$$$$$$   /$$$$$$$  /$$$$$$ | $$         /$$$$$$$  /$$$$$$$ /$$$$$$$
+| $$  | $$| $$__  $$| $$|  $$  /$$//$$__  $$ /$$__  $$ /$$_____/ |____  $$| $$        /$$_____/ /$$_____//$$_____/
+| $$  | $$| $$  \ $$| $$ \  $$/$$/| $$$$$$$$| $$  \__/|  $$$$$$   /$$$$$$$| $$       | $$      |  $$$$$$|  $$$$$$ 
+| $$  | $$| $$  | $$| $$  \  $$$/ | $$_____/| $$       \____  $$ /$$__  $$| $$  /$$$ | $$       \____  $$\____  $$
+|  $$$$$$/| $$  | $$| $$   \  $/  |  $$$$$$$| $$       /$$$$$$$/|  $$$$$$$| $$ | $$$ |  $$$$$$$ /$$$$$$$//$$$$$$$/
+ \______/ |__/  |__/|__/    \_/    \_______/|__/      |_______/  \_______/|__/ |___/  \_______/|_______/|______*/
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* COLOR PALETTE: 
+Use these EXCLUSIVELY to apply color to elements.*/
+
+.uClear {
+  background: none;
+}
+
+.uBlack {
+  background: #0d0d0d;
+}
+
+.uPurple {
+  background: #201a26;
+}
+
+.uGray {
+  background: #323033;
+}
+
+.uMedGray {
+  background: #756975;
+}
+
+.uLightGray {
+  background: #b0b0b0;
+}
+
+.uWhite {
+  background: #d9d9d9;
+}
+
+.uYellow {
+  background: #f2ce18;
+}
+
+.uYellowText {
+  color: #f2ce18;
+}
+
+.uWhiteText {
+  color: #d9d9d9;
+}
+
+.uLightGrayText {
+  color: #b0b0b0;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* THE FONT: */
+
+/* STYLESHEET LINK:
+  <link rel="stylesheet" href="https://use.typekit.net/urd1cnd.css"> 
+  (HTML implementation) */
+
+/* BASIC CSS: */
+/* 
+  font-family: t26-carbon, monospace;
+  font-style: normal; 
+  */
+
+/* BOLD / NOT BOLD CSS:
+  font-weight: 700;
+  font-weight: 100; 
+  */
+
+@import url("https://use.typekit.net/urd1cnd.css");
+
+h1 {
+  font-family: "t26-carbon", monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+}
+
+h2 {
+  font-family: "t26-carbon", monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+h3 {
+  font-family: "t26-carbon", monospace;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+h4 {
+  font-family: "t26-carbon", monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+a {
+  color: #b0b0b0;
+  text-decoration: none;
+}
+
+p {
+  color: #b0b0b0;
+  line-height: 22px;
+}
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* PRESET ELEMENTS: */
+
+.uButton {
+  border: 1px solid #b0b0b0;
+  border-radius: 7px;
+  padding: 5px;
+  font-size: 24px;
+  font-family: "t26-carbon", monospace;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+}
+
+.uButtonSmall {
+  border: 1px solid #695c69;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.uHover {
+  border: 1px solid #f2ce18;
+  color: #f2ce18;
+}
+
+.uHoverSmall {
+  border: 1px solid #f2ce18;
+  color: #f2ce18;
+}
+
+.uClick {
+  border: 2px solid #f2ce18;
+  background: #f2ce18;
+  color: #0d0d0d;
+}
+
+.uBox {
+  border-radius: 7px;
+}
+
+.uLineBox {
+  border: 1px solid #695c69;
+  border-radius: 7px;
+}
